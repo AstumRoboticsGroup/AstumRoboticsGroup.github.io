@@ -1,0 +1,47 @@
+// Framed sections used on the Teaching and Join Us pages.
+// .frame-box is one framed section; .frame-item is one entry inside it; .frame-tag is a small outlined label.
+.frame-box {
+  border: 1px solid var(--global-divider-color);
+  border-radius: 8px;
+  padding: 1.1rem 1.4rem 0.4rem;
+  margin-bottom: 1.6rem;
+  > h2 {
+    font-size: 1.35rem;
+    font-weight: 700;
+    margin: 0 0 0.9rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid var(--global-divider-color);
+  }
+  p,
+  li {
+    font-size: 0.9rem;
+  }
+  ul {
+    margin-bottom: 0.6rem;
+  }
+}
+.frame-item {
+  margin-bottom: 1rem;
+  h3 {
+    font-size: 1rem;
+    font-weight: 600;
+    margin: 0 0 0.25rem;
+  }
+  p {
+    margin: 0 0 0.25rem;
+  }
+  .links {
+    font-size: 0.85rem;
+  }
+}
+.frame-tag {
+  display: inline-block;
+  font-size: 0.72rem;
+  font-weight: 500;
+  padding: 0.05rem 0.45rem;
+  margin-left: 0.35rem;
+  border-radius: 4px;
+  color: var(--global-theme-color);
+  border: 1px solid var(--global-theme-color);
+  vertical-align: middle;
+}
